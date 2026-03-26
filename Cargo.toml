@@ -3,6 +3,10 @@ name = "rustyclicker"
 version = "0.1.0"
 edition = "2024"
 
+[package.metadata.bundle]
+name = "RustyClicker"
+identifier = "com.homanti.rustyclicker"
+
 [dependencies]
 iced = "0.14.0"
 rdev = "0.5.3"
