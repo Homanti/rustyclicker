@@ -65,6 +65,7 @@ fn main() -> iced::Result {
             ..Default::default()
         })
         .subscription(App::input_subscription)
+        .title("RustyClicker")
         .exit_on_close_request(false)
         .run()
 }
@@ -266,7 +267,7 @@ impl App {
                     y_axis_shift: self.y_input.parse().unwrap_or(0),
                     interval: self.interval_input.parse().unwrap_or(DEFAULT_INTERVAL),
                 });
-                
+
                 std::process::exit(0);
             }
         }
