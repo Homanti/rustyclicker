@@ -9,7 +9,7 @@ identifier = "com.homanti.rustyclicker"
 
 [dependencies]
 iced = "0.14.0"
-rdev = "0.5.3"
+rdev = { git = "https://github.com/Narsil/rdev.git", branch = "main" }
 rand = "0.10.0"
 dirs = "6.0.0"
 serde = { version = "1.0.228", features = ["derive"] }
